@@ -1,2 +1,1 @@
-# jQuery-from
-jQuery-form
+[jQuery-form](https://samcorstjens.github.io/jQuery-form/)
