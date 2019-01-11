@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="mistake">
+      <p>You did not fill out the form correctly!</p>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="display-name">Display Name</label>
+        <input type="text" id="display-name" class="form-control">
+        <p id="bonus1">Geef minstens 5 letters.(max 20)(Geen tekens of cijfers, alleen letters!)</p>
+      </div>
+      <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" class="form-control">
+        <p id="bonus2">Geef minstens 5 characters.</p>
+        <p id="wachtsterkte">Wachtwoord sterkte</p>
+      </div>
+      <div class="form-group">
+        <label for="pass-confirm">Confirmation</label>
+        <input type="password" id="pass-confirm" class="form-control">
+        <p id="bonus3">Geef minstens 5 characters en dezelde inhoud als bij password.</p>
+        <p id = "extrawachtwoord">Niet identiek aan password!</p>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" class="form-control">
+        <p id="bonus4">Maak er zeker van dat je e-mail een '@' bevat</p>
+      </div>
+      <button type="submit" id="send" class="btn btn-default">Submit</button>
+      <button type="reset" id="reset" class="btn btn-default">Reset</button>
+    </form>
+  </div>
+  <script src="js/jquery-2.2.2.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+#mistake {
+    display: none;
+}
+form {
+    padding: 10px;
+}
+#bonus1{
+    display: none;
+}
+#bonus2{
+    display: none;
+}
+#bonus3{
+    display: none;
+}
+#bonus4{
+    display: none;
+}
+#extrawachtwoord{
+  display : none;
+}
