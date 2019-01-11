@@ -10,6 +10,10 @@ $(document).ready(function () {
 		$(".form-control").val("");
 		$(".form-control").css("border", "");
 		$("#mistake").css("display", "none");
+		$("#bonus1").css("display","none");
+		$("#bonus2").css("display","none");
+		$("#bonus3").css("display","none");
+		$("#bonus4").css("display","none");
 		$("#wachtsterkte").css("color", "");
 		$("#wachtsterkte").html("Wachtwoord sterkte");
 	})
